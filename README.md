@@ -10,7 +10,7 @@ Model Context Protocol (MCP) allows AI agents (Claude, Cursor, Windsurf, etc.) t
 
 ### 1. Get API Key
 
-Create an API key from the [AgentTemp Dashboard](https://tempmailai.vercel.app/dashboard/api-keys).
+Create an API key from the AgentTemp Dashboard (set `AGENTTEMP_API_KEY` or pass `--api-key`).
 
 ### 2. Add to Your MCP Client
 
@@ -77,10 +77,10 @@ console.log(wait.result?.value); // "123456"
 
 ## Resources
 
-- **Main App**: https://github.com/kunalgawade19042002-gif/tempmail
-- **SDK**: https://github.com/kunalgawade19042002-gif/agenttemp-node
+- **Node.js SDK**: https://github.com/kunalgawade19042002-gif/agenttemp-node
+- **Python SDK**: https://github.com/kunalgawade19042002-gif/agenttemp-python
+- **CLI Tool**: https://github.com/kunalgawade19042002-gif/agenttemp-cli
 - **API Docs**: https://tempmailai.vercel.app/api/v1/openapi.json
-- **Dashboard**: https://tempmailai.vercel.app/dashboard
 
 ## License
 
