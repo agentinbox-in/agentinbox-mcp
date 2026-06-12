@@ -1,0 +1,24 @@
+name: agenttemp
+version: 0.1.0
+author: AgentTemp
+description: Email verification infrastructure for AI agents and test automation
+license: MIT
+mcp:
+  endpoint: https://tempmailai.vercel.app/api/mcp
+  transport: http
+  authentication:
+    type: bearer
+    header: Authorization
+  tools:
+    - create_inbox
+    - list_inboxes
+    - get_inbox
+    - delete_inbox
+    - list_messages
+    - get_message
+    - list_extractions
+    - wait_for_email
+    - wait_for_otp
+    - wait_for_magic_link
+    - wait_for_password_reset
+    - check_wait

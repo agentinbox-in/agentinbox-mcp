@@ -1,0 +1,28 @@
+{
+  "name": "agenttemp-mcp",
+  "version": "0.1.0",
+  "description": "MCP server configuration for AgentTemp - Email verification for AI agents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "agenttemp",
+    "tempmail",
+    "email",
+    "verification",
+    "ai",
+    "agent"
+  ],
+  "author": "AgentTemp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalgawade19042002-gif/agenttemp-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/kunalgawade19042002-gif/agenttemp-mcp/issues"
+  },
+  "homepage": "https://tempmailai.vercel.app"
+}
