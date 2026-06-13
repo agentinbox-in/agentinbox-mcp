@@ -77,9 +77,9 @@ console.log(wait.result?.value); // "123456"
 
 ## Resources
 
-- **Node.js SDK**: https://github.com/AgentTemp-io/agenttemp-node
-- **Python SDK**: https://github.com/AgentTemp-io/agenttemp-python
-- **CLI Tool**: https://github.com/AgentTemp-io/agenttemp-cli
+- **Node.js SDK**: https://github.com/agentinbox-in/agenttemp-node
+- **Python SDK**: https://github.com/agentinbox-in/agenttemp-python
+- **CLI Tool**: https://github.com/agentinbox-in/agenttemp-cli
 - **API Docs**: https://agentinbox.in/api/v1/openapi.json
 
 ## License
