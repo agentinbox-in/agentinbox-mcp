@@ -19,7 +19,7 @@ Create an API key from the AgentTemp Dashboard (set `AGENTTEMP_API_KEY` or pass 
 {
   "mcpServers": {
     "agenttemp": {
-      "url": "https://tempmailai.vercel.app/api/mcp",
+      "url": "https://agentinbox.in/api/mcp",
       "headers": {
         "Authorization": "Bearer at_live_..."
       }
@@ -34,7 +34,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "agenttemp": {
-      "url": "https://tempmailai.vercel.app/api/mcp",
+      "url": "https://agentinbox.in/api/mcp",
       "headers": {
         "Authorization": "Bearer at_live_..."
       }
@@ -77,10 +77,10 @@ console.log(wait.result?.value); // "123456"
 
 ## Resources
 
-- **Node.js SDK**: https://github.com/kunalgawade19042002-gif/agenttemp-node
-- **Python SDK**: https://github.com/kunalgawade19042002-gif/agenttemp-python
-- **CLI Tool**: https://github.com/kunalgawade19042002-gif/agenttemp-cli
-- **API Docs**: https://tempmailai.vercel.app/api/v1/openapi.json
+- **Node.js SDK**: https://github.com/AgentTemp-io/agenttemp-node
+- **Python SDK**: https://github.com/AgentTemp-io/agenttemp-python
+- **CLI Tool**: https://github.com/AgentTemp-io/agenttemp-cli
+- **API Docs**: https://agentinbox.in/api/v1/openapi.json
 
 ## License
 
