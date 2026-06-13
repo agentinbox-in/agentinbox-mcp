@@ -1,6 +1,6 @@
-name: agenttemp
+name: agentinbox
 version: 0.1.0
-author: AgentTemp
+author: AgentInbox
 description: Email verification infrastructure for AI agents and test automation
 license: MIT
 mcp:

@@ -1,16 +1,16 @@
-# AgentTemp MCP
+# AgentInbox MCP
 
-MCP (Model Context Protocol) server configuration for AgentTemp - Email verification infrastructure for AI agents.
+MCP (Model Context Protocol) server configuration for AgentInbox - Email verification infrastructure for AI agents.
 
 ## What is MCP?
 
-Model Context Protocol (MCP) allows AI agents (Claude, Cursor, Windsurf, etc.) to directly interact with AgentTemp's API through structured tools.
+Model Context Protocol (MCP) allows AI agents (Claude, Cursor, Windsurf, etc.) to directly interact with AgentInbox's API through structured tools.
 
 ## Quick Setup
 
 ### 1. Get API Key
 
-Create an API key from the AgentTemp Dashboard (set `AGENTTEMP_API_KEY` or pass `--api-key`).
+Create an API key from the AgentInbox Dashboard (set `AGENTINBOX_API_KEY` or pass `--api-key`).
 
 ### 2. Add to Your MCP Client
 
@@ -18,7 +18,7 @@ Create an API key from the AgentTemp Dashboard (set `AGENTTEMP_API_KEY` or pass 
 ```json
 {
   "mcpServers": {
-    "agenttemp": {
+    "agentinbox": {
       "url": "https://agentinbox.in/api/mcp",
       "headers": {
         "Authorization": "Bearer at_live_..."
@@ -33,7 +33,7 @@ Add to `~/.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "agenttemp": {
+    "agentinbox": {
       "url": "https://agentinbox.in/api/mcp",
       "headers": {
         "Authorization": "Bearer at_live_..."

@@ -1,21 +1,21 @@
 {
-  "name": "agenttemp-mcp",
+  "name": "agentinbox-mcp",
   "version": "0.1.0",
-  "description": "MCP server configuration for AgentTemp - Email verification for AI agents",
+  "description": "MCP server configuration for AgentInbox - Email verification for AI agents",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [
     "mcp",
-    "agenttemp",
+    "agentinbox",
     "tempmail",
     "email",
     "verification",
     "ai",
     "agent"
   ],
-  "author": "AgentTemp",
+  "author": "AgentInbox",
   "license": "MIT",
   "repository": {
     "type": "git",
