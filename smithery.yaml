@@ -4,7 +4,7 @@ author: AgentTemp
 description: Email verification infrastructure for AI agents and test automation
 license: MIT
 mcp:
-  endpoint: https://tempmailai.vercel.app/api/mcp
+  endpoint: https://agentinbox.in/api/mcp
   transport: http
   authentication:
     type: bearer
