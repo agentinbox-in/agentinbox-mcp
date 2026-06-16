@@ -2,9 +2,8 @@
   "name": "agentinbox-mcp",
   "version": "0.1.0",
   "description": "MCP server configuration for AgentInbox - Email verification for AI agents",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "node -e \"const fs=require('fs'); JSON.parse(fs.readFileSync('mcp.json','utf8')); if(!fs.existsSync('smithery.yaml')) process.exit(1);\""
   },
   "keywords": [
     "mcp",
