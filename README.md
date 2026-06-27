@@ -12,6 +12,12 @@ Model Context Protocol (MCP) allows AI agents (Claude, Cursor, Windsurf, etc.) t
 
 Create an API key from the AgentInbox Dashboard (set `AGENTINBOX_API_KEY` or pass `--api-key`).
 
+The MCP endpoint expects the same API key format as the REST API:
+
+```http
+Authorization: Bearer at_live_...
+```
+
 ### 2. Add to Your MCP Client
 
 **Claude Desktop:**
@@ -43,6 +49,22 @@ Add to `~/.cursor/mcp.json`:
 }
 ```
 
+**Opencode:**
+```json
+{
+  "mcp": {
+    "agentinbox": {
+      "type": "remote",
+      "url": "https://agentinbox.in/api/mcp",
+      "enabled": true,
+      "headers": {
+        "Authorization": "Bearer {env:AGENTINBOX_API_KEY}"
+      }
+    }
+  }
+}
+```
+
 **Windsurf:**
 Add to your Cascade configuration.
 
@@ -62,6 +84,8 @@ Add to your Cascade configuration.
 | `wait_for_magic_link` | Wait for magic link |
 | `wait_for_password_reset` | Wait for password reset link |
 | `check_wait` | Check wait status (non-blocking) |
+
+Responses use the public AgentInbox API schema, including camelCase fields such as `emailAddress`, `expiresAt`, `inboxId`, and `timeoutSeconds`.
 
 ## Example Usage
 
